@@ -1,0 +1,50 @@
+article p{
+    background: blue;
+    color: whitesmoke;
+    padding: 20px;
+}
+article > p{
+    background-color: red;
+}
+article ~ p{
+    background-color: purple;
+    color: white;
+    pad: 20px;
+}
+article + p{
+    background-color: orange;
+}
+h3:first-child{
+    background-color: green;
+    color: whitesmoke;
+}
+input:in-range{
+    border: 3px solid green;
+}
+input:out-of-range{
+    border: 3px solid red;
+}
+input:required{
+    background-color: #9ee5f0;
+}
+input:focus{
+    background-color: yellow;
+}
+span:first-of-type{
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+}
+input:invalid{
+    border: 2px solid red;
+}
+input:valid{
+    border: 2px solid green;
+}
+p::first-line{
+    color: blue;
+    font-size: 40px;
+}
+dic{
+    opacity:0.5;
+}
