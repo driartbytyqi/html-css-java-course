@@ -1,0 +1,112 @@
+div#static{
+    position: static;
+    border: 3px solid #00014e;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+}
+div#relativ{
+    position: relative;
+    border: 3px solid #00014e;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    left: 200px;
+    top: 20px;
+}
+div#fixed{
+    position: fixed;
+    border: 3px solid #00014e;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    left: 200px;
+    top: 100px;
+}
+div#parent{
+    position: parent;
+    border: 3px solid #00014e;
+    width: 250px;
+    height: 250px;
+    
+}
+div#absolute{
+    position: absolute;
+    border: 3px solid #00014e;
+    width: 100px;
+    height: 100px;
+    right: 80px;
+    top: 70px;
+    top: 100px;
+    color: whitesmoke;
+}
+div#sticky{
+    position: sticky;
+    top: 0;
+    background-color: #00014e;
+    padding: 20px;
+    color: white;
+}
+/*
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: whitesmoke;   
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+    background-color: #111;
+}
+.active{
+    background-color: #4caf50;
+}*/
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a{
+    float: left;
+    font-size: 16px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropdown{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropdown{
+    background-color: #4caf50;
+}
+.dropdown-contetnt{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
