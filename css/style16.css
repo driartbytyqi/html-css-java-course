@@ -1,0 +1,42 @@
+div.gallery{
+    margin: 5;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+div.gallery:hover{
+    border: 1px solid #777;
+}
+div.gallery img{
+    width: 100%;
+    height: auto;
+}
+div.desc{
+    padding: 15px;
+    text-align: center;
+}
+p[class*='ds']{
+    background: blue;
+    color: white;
+    padding: 20px;
+}
+div[id~='ds']{
+    background: green;
+    color: white;
+    padding: 20px;
+}
+img[title^='animal']{
+    border: 2px solid yellow;
+}
+h1[class|=heading]{
+    background: purple;
+    padding: 20px;
+    color:white;
+}
+
+input[placeholder$='name']{
+    border: 2px solid red;
+}
+input[readonly]{
+    border: 2px solid green;
+}
