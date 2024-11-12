@@ -1,0 +1,9 @@
+div#translate{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    transform: translate(100px,50px);
+    padding: 10px;
+}
