@@ -33,7 +33,7 @@ a {
 }
 
 .navbar h1 {
-    font-size: 2.5rem;
+    font-size: 50px;
     margin-bottom: 15px;
 }
 
@@ -49,15 +49,15 @@ a {
 
 .navbar ul li a {
     color: white;
-    font-size: 1.2rem;
+    font-size: 20px;
 }
 
 
 .hero {
-    background-image: url('https://png.pngtree.com/background/20230516/original/pngtree-dark-gym-where-you-can-take-in-the-surrounding-light-picture-image_2611114.jpg');
+    background-image: url('https://i.pinimg.com/originals/7c/c1/e3/7cc1e3d2c4d85454b3bb419f89dee043.jpg');
     background-size: cover;
     background-position: center;
-    color: white;
+    color: rgb(192, 191, 191);
     text-align: center;
     height: 100vh;
     display: flex;
@@ -67,12 +67,12 @@ a {
 }
 
 .hero-content h2 {
-    font-size: 3rem;
+    font-size: 65px;
     margin-bottom: 20px;
 }
 
 .hero-content p {
-    font-size: 1.3rem;
+    font-size: 20px;
     margin-bottom: 40px;
 }
 
@@ -81,8 +81,7 @@ a {
     color: white;
     padding: 15px 30px;
     border-radius: 25px;
-    font-size: 1.2rem;
-    transition: background 0.3s ease;
+    font-size: 20px;
 }
 
 .cta-button:hover {
@@ -97,12 +96,12 @@ a {
 }
 
 .about h2 {
-    font-size: 2.5rem;
+    font-size: 50px;
     margin-bottom: 20px;
 }
 
 .about p {
-    font-size: 1.2rem;
+    font-size: 20px;
     color: #555;
     width: 80%;
     margin: 0 auto;
@@ -116,7 +115,7 @@ a {
 }
 
 .services h2 {
-    font-size: 2.5rem;
+    font-size: 50px;
     margin-bottom: 40px;
 }
 
@@ -131,12 +130,12 @@ a {
 }
 
 .service h3 {
-    font-size: 1.8rem;
+    font-size: 30px;
     margin-bottom: 15px;
 }
 
 .service p {
-    font-size: 1.2rem;
+    font-size:20px;
     color: #555;
 }
 
@@ -149,12 +148,12 @@ a {
 }
 
 .contact h2 {
-    font-size: 2.5rem;
+    font-size: 70px;
     margin-bottom: 20px;
 }
 
 .contact p {
-    font-size: 1.2rem;
+    font-size: 20px;
     margin-bottom: 40px;
 }
 
@@ -177,12 +176,12 @@ a {
     color: white;
     border: none;
     border-radius: 5px;
-    font-size: 1.2rem;
+    font-size: 20px;
     cursor: pointer;
 }
 
 .contact button:hover {
-    background: #5e3e4c;
+    background: #5e3e3e;
 }
 
 
