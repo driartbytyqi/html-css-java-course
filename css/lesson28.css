@@ -1,0 +1,29 @@
+.test{
+    font-size: 100px;
+    color: lightblue;
+    background-color: lightgray;
+    padding: 20px;
+    margin-top: 100px;
+    border: 1px solid black;
+    transition: 1s ease;
+    transform: scale(0.9);
+}
+
+.shape_circle{
+    border-radius: 50%;
+    width:150px;
+    height:150px;
+    background-color: red;
+}
+
+.shape_rectangle{
+    width:200px;
+    height: 100px;
+}
+
+.shape.triangle{
+    width:0 ;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-bottom: 100px solid red;
+}
